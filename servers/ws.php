@@ -29,6 +29,7 @@ class ws
         }
 
         $this->ws = new Swoole\WebSocket\Server(self::host, self::port);
+        $this->ws->listen("127.0.0.1", 9503, SWOOLE_SOCK_TCP);
         $this->ws->set([
             'enable_static_handler' => true, //开启静态文件请求处理功能，需配合 document_root 使用 默认 false
             'document_root' => '/Users/davis/PHP/tp5-swoole-demo/public/static',
