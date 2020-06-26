@@ -120,7 +120,7 @@ return [
     'mail' => [
         'host' => 'smtp.qq.com',
         'username' => '1479714102@qq.com',
-        'password' => 'crqffogjsnvbjbbd',
+        'password' => 'xxxxxxxx',
         'from' => '1479714102@qq.com',
         'name' => 'Davis'
     ],
